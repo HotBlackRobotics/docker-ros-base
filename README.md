@@ -1,4 +1,4 @@
-# Docker ROS Base
+# Docker ROS Base
 
 Two starting point docker container based on ROS developed, respectively, for
 a standard Intel architecture and a Raspberry Pi 3 architecture.
@@ -13,6 +13,6 @@ ROS-based applications.
  - `FROM hbrobotics/ros-base:intel`
  - `FROM hbrobotics/ros-base:rpi3`
 
-## Mantainer
+## Mantainer
 
  - Ludovico Ludovico - @ludusrusso
