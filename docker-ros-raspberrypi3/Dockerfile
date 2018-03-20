@@ -1,4 +1,9 @@
 FROM armv7/armhf-ubuntu:16.04
+
+SHELL ["/bin/bash","-c"]
+
+COPY ./qemu-arm-static /usr/bin/qemu-arm-static
+
 RUN locale-gen en_US.UTF-8
 ENV LANG en_US.UTF-8
 
